@@ -11,6 +11,8 @@ body {
   background-color: #0f172a;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
+/* button styling */
 .ripple-btn {
   position: relative;
   padding: 16px 40px;
@@ -26,6 +28,7 @@ body {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
+/* Circle styling */
 .ripple-btn .bg-circle {
   position: absolute;
   background-color: #3b82f6;
@@ -44,6 +47,7 @@ body {
   z-index: 2;
 }
 
+/* on hover */
 .ripple-btn:hover {
   color: #ffffff;
 }
